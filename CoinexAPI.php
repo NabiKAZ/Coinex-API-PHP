@@ -2,7 +2,7 @@
 /**
  * Coinex digital coin exchange API for PHP
  *
- * @author Nabi KAZ <nabi@gmail.com> <www.nabi.ir>
+ * @author Nabi KAZ <nabikaz@gmail.com> <www.nabi.ir>
  * @package https://github.com/NabiKAZ/Coinex-API-PHP
  * @license GPL-3.0-or-later
  */
