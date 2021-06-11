@@ -7,7 +7,7 @@
  * @license GPL-3.0-or-later
  */
 
-require __DIR__ . '/../../vendor/autoload.php';
+require __DIR__ . '/../../../vendor/autoload.php';
 
 use NabiKAZ\Coinex\CoinexAPI;
 
