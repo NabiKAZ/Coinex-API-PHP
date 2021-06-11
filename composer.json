@@ -1,0 +1,23 @@
+{
+    "name": "nabikaz/coinex-api-php",
+    "description": "Coinex digital coin exchange API for PHP",
+    "keywords": [
+        "coinex",
+        "exchange",
+        "api",
+        "php",
+        "crypto",
+        "coin"
+    ],
+    "homepage": "https://github.com/NabiKAZ/Coinex-API-PHP",
+    "type": "library",
+    "license": "GPL-3.0-or-later",
+    "authors": [
+        {
+            "name": "Nabi KAZ",
+            "email": "nabikaz@gmail.com",
+            "homepage": "http://www.nabi.ir"
+        }
+    ],
+    "require": {}
+}
