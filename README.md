@@ -41,22 +41,11 @@ $params = [
 ```
 
 ## Arguments of request
-- `$url`: The request URL of API
-    - type: string
-    - required
-    - example: `'market/ticker'`
- 
-- `$params` : The request parameters of API
-    - type: array
-    - if needed
-    - default: `[]`
-    - example. `['market'=>'BCHBTC']`
-
-- `$method` : The request method of API
-    - type: string
-    - optional
-    - default: `'get'`
-    - example. `'get', 'post', 'delete'`
+|    name   |  type  | required | default |          example          | description            |
+|:---------:|:------:|:--------:|:-------:|:-------------------------:|------------------------|
+| `$url`    | string | yes      | -       | `'market/ticker'`         | The request URL        |
+| `$params` | array  | no       | `[]`    | `['market'=>'BCHBTC']`    | The request parameters |
+| `$method` | string | no       | `'get'` | `'get', 'post', 'delete'` | The request method     |
 
 ## Send request (Method 1)
 ```php
