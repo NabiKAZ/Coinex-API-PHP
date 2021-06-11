@@ -6,8 +6,8 @@ Coinex digital coin exchange API for PHP
 - CURL PHP module
 
 ## Install
-```
-composer require NabiKAZ\CoinexAPI
+```shell
+composer require NabiKAZ/Coinex-API-PHP dev-main
 ```
 
 ## Acquire access\_id and secret\_key
