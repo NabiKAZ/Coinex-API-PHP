@@ -4,6 +4,7 @@
  *
  * @author Nabi KAZ <nabikaz@gmail.com> <www.nabi.ir>
  * @package https://github.com/NabiKAZ/Coinex-API-PHP
+ * @CoinEx  https://www.coinex.com/register?refer_code=6zaqh
  * @license GPL-3.0-or-later
  */
 

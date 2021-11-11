@@ -11,7 +11,7 @@ composer require NabiKAZ/Coinex-API-PHP dev-main
 ```
 
 ## Acquire access\_id and secret\_key
-Sign in to [CoinEx](https://www.coinex.com) before invoking API and get Acquire access\_id/secret\_key in **Account** &gt; **API**.
+Sign in to [CoinEx](https://www.coinex.com/register?refer_code=6zaqh) before invoking API and get Acquire access\_id/secret\_key in **Account** &gt; **API**.
 
 > access\_id: To mark identity of API invoker
 > 

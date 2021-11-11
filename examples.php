@@ -13,7 +13,7 @@ use NabiKAZ\Coinex\CoinexAPI;
 
 //use this variable in some functions as global
 $access_id = '<ACCESS_ID>';
-$secret_key = '<SECRET_KEY>';
+$secret_key = '<SECRET_KEY>'; //Sign in to CoinEx: https://www.coinex.com/register?refer_code=6zaqh
 $proxy = ''; //ex.: "socks5h://127.0.0.1:8080" , manual: https://curl.se/libcurl/c/CURLOPT_PROXY.html
 
 //create api object
