@@ -14,9 +14,10 @@ use NabiKAZ\Coinex\CoinexAPI;
 //use this variable in some functions as global
 $access_id = '<ACCESS_ID>';
 $secret_key = '<SECRET_KEY>';
+$proxy = ''; //ex.: "socks5h://127.0.0.1:8080" , manual: https://curl.se/libcurl/c/CURLOPT_PROXY.html
 
 //create api object
-$coinex = new CoinexAPI($access_id, $secret_key);
+$coinex = new CoinexAPI($access_id, $secret_key, $proxy);
 
 //Acquire Currency Rate: https://github.com/coinexcom/coinex_exchange_api/wiki/070currency_rate
 $res = $coinex->send('common/currency/rate');

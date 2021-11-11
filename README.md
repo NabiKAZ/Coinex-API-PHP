@@ -32,6 +32,20 @@ $secret_key = '<SECRET_KEY';
 $coinex = new CoinexAPI($access_id, $secret_key);
 ```
 
+## Set proxy
+The proxy is optional.\
+Use proxy URL with this format:
+```scheme://[username:password@]hostname:port```\
+For examples:
+```php
+$proxy = 'socks5://user:pass@localhost:12345';
+$proxy = 'http://127.0.01:8080';
+```
+And so use this proxy when setup request:
+```php
+$coinex = new CoinexAPI($access_id, $secret_key, $proxy);
+```
+
 ## Set params
 ```php
 //params if nedded

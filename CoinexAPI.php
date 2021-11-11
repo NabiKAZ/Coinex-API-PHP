@@ -16,11 +16,13 @@ class CoinexAPI
     public $url;
     public $params = [];
     public $method = 'GET';
+    public $proxy = false;
 
-    public function __construct($access_id, $secret_key)
+    public function __construct($access_id, $secret_key, $proxy = false)
     {
         $this->access_id = $access_id;
         $this->secret_key = $secret_key;
+        $this->proxy = $proxy;
     }
 
     public function send($url = '', $params = '', $method = '')
@@ -95,6 +97,11 @@ class CoinexAPI
         $headers[] = 'Content-Type: application/json';
         $headers[] = 'Authorization: ' . $sign;
         curl_setopt($ch, CURLOPT_HTTPHEADER, $headers);
+
+        //set proxy, manual: https://curl.se/libcurl/c/CURLOPT_PROXY.html
+        if ($this->proxy) {
+            curl_setopt($ch, CURLOPT_PROXY, $this->proxy);
+        }
 
         //send request
         $result = curl_exec($ch);
